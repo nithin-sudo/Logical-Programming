@@ -4,14 +4,14 @@ public class PerfectNumber {
     public static void main(String[] args){
         int sumOfPositiveDivisor=0;
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter a Number: ");
+        System.out.println("Enter a Number to be checked: ");
         int perfectNumber = scanner.nextInt();
-        for(int i=1;i<perfectNumber;i++)
+        for (int i=1;i<perfectNumber;i++)
         {
             if(perfectNumber%i==0)
             {
-                sumOfPositiveDivisor+=i;
-                //System.out.println(sum);
+                sumOfPositiveDivisor=sumOfPositiveDivisor+i;
+                System.out.println("the positive divisors of given number are:"+i);
             }
         }
         if(sumOfPositiveDivisor==perfectNumber)
