@@ -1,6 +1,10 @@
 package com.bridgelabz.logicalprograms;
 import java.util.Scanner;
 public class PerfectNumber {
+    /**
+     * taking input number from user and checking whether it id perfect number or not.
+     * @param args
+     */
     public static void main(String[] args){
         int sumOfPositiveDivisor=0;
         Scanner scanner = new Scanner(System.in);
