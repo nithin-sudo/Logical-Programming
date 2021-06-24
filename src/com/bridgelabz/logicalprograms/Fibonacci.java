@@ -6,9 +6,9 @@ public class Fibonacci {
      * @param args
      */
     public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a range: ");
-        int fibonacciRange = sc.nextInt();
+        int fibonacciRange = scanner.nextInt();
         int precedingNumberOne=0,precedingNumberTwo=1,nextNumber;
         System.out.println("fibonnaci series for given range:");
         System.out.print(precedingNumberOne);
